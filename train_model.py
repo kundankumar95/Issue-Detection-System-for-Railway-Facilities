@@ -82,6 +82,6 @@ def classify_image(img_path):
 if __name__ == "__main__":
     # Example usage
     train_model('/home/kundankarn/text_folder/train', '/home/kundankarn/text_folder/validation')
-    image_path = '/home/kundankarn/text_folder/train/water/image(4).png'
+    image_path = input("Enter the image path")
     result = classify_image(image_path)
     print(result)
